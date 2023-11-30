@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 class IndexController {
 
     public index(req: Request, res: Response) {
-        res.render('index.html');
+        res.json({text: 'API is in /api/games'});
     }
 
 }

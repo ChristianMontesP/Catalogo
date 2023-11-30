@@ -1,2 +1,2 @@
 # Catalogo
-Games catalog app for deployment
+Game catalog app for deployment

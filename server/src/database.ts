@@ -6,7 +6,6 @@ const pool = new Pool({
   host: keys.database.host,
   database: keys.database.database,
   password: keys.database.password,
-  port: keys.database.port,
 });
 
 pool.connect()

@@ -6,7 +6,7 @@ export default {
         user: process.env.USER,
         password: process.env.PASSWORD,
         database: process.env.DATABASE,
-        ssl: Boolean(process.env.SSL)
+        ssl: process.env.SSL === 'true'
     }
 
 }
